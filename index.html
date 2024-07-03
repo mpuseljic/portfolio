@@ -1,136 +1,227 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial scale=1.0">
-        <title>Mirna Portfolio Website</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial scale=1.0" />
+    <title>Mirna Portfolio Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
 
-        <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap" rel="stylesheet"> 
-        
-        <link rel="stylesheet" href="css/style.css">
-     
-    </head>
-    <body>
-        <header>
-            <button class="nav-toggle" aria-label="toggle navigation">
-                <span class="hamburger"></span>
-            </button>
-            <nav class="nav">
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
-                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
-                    <li class="nav__item"><a href="#work" class="nav__link">Contact</a></li>
-                </ul>
-            </nav>
-            
-        </header>
+    <link
+      href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap"
+      rel="stylesheet"
+    />
 
-        <!-- Introduction -->
-        <section class="intro" id="home">
-            <h1 class="section__title section__title--intro">
-                Hi, I am <strong>Mirna Pušeljić</strong>
-            </h1>
-            <p class="section__subtitle section__subtitle--intro">student</p>
-            <img src="img/mirna.jpeg" alt="picture of Mirna" class="intro__img">
-        </section>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">My Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-        <!-- My services -->
-        <section class="my-services" id="services">
-            <h2 class="section__title section__title--services">What I do</h2>
-            <div class="services">
-                <div class="service">
-                    <h3>Web Development Services</h3>
-                    <p>Creating responsive websites using HTML, CSS, and JavaScript.</p>
-                </div> <!-- /service -->
+    <!-- Introduction -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi, I am <strong>Mirna Pušeljić</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">student</p>
+      <img src="img/mirna.jpeg" alt="picture of Mirna" class="intro__img" />
+    </section>
 
-                <div class="service">
-                    <h3>Problem solving</h3>
-                    <p>The ability to analyze and solve technical challenges in programming and website development.</p>
-                </div> <!-- /service -->
+    <!-- My services -->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">What I do</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Web Development Services</h3>
+          <p>Creating responsive websites using HTML, CSS, and JavaScript.</p>
+        </div>
+        <!-- /service -->
 
-                <div class="service">
-                    <h3>Collaborative Teamwork</h3>
-                    <p>
-                        Experience working in teams of various sizes on web development projects.</p>
-                </div> <!-- /service -->
-            </div>
+        <div class="service">
+          <h3>Problem solving</h3>
+          <p>
+            The ability to analyze and solve technical challenges in programming
+            and website development.
+          </p>
+        </div>
+        <!-- /service -->
 
-            <a href="#work" class="btn">My Work</a>
-        </section>
+        <div class="service">
+          <h3>Collaborative Teamwork</h3>
+          <p>
+            Experience working in teams of various sizes on web development
+            projects.
+          </p>
+        </div>
+        <!-- /service -->
+      </div>
 
-        <!-- About me -->
-        <section class="about-me" id="about">
-            <h2 class="section__title section__title--about"> Who I am</h2>
-            <p class="section__subtitle section__subtitle--about">Student at Faculty of Informatics in Pula</p>
+      <a href="#work" class="btn">My Work</a>
+    </section>
 
-            <div class="about-me__body">
-                <p>Hello! I'm third-year computer science student in Pula with a passion for web development and a love for
-                    creating beautiful and functional websites. I have a solid understanding of JavaScript, HTML, CSS and Vue.js, which allows me to build
-                    dynamic and responsive web applications. Currently, I'm pursuing my bachelor's degree in Computer Science at Faculty
-                    of Informatics in Pula. I'm truly passionate about creating elegant and user-friendly web experiences, and my goal is to 
-                    continue learning and growing as a developer to make a positive impact in the tech industry. Outside the world of coding, I have a deep love for 
-                    running. It's not just a physical activity for me; it's a way to clear my mind, set and achieve personal goals and stay mentally and physically fit.
+    <!-- About me -->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Who I am</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Student at Faculty of Informatics in Pula
+      </p>
 
-                </p>
-            </div>
+      <div class="about-me__body">
+        <p>
+          I am a dedicated and enthusiastic third-year undergraduate student of
+          informatics with a strong passion for web development. Currently
+          studying at hte Faculty foInformatics ni Pula, Ihave gained valuable
+          knowledge and skils ni programming languages and web design. Through
+          my apprenticeship, I have honed my abilities ni creating responsive
+          and user-friendly websites. I am eager to further expand my expertise
+          and contribute to innovative projects in the field of web development.
+        </p>
+        <p>
+          <li><strong>Languages:</strong> C++, C#, Javascript, Java, SQL</li>
+          <li>
+            <strong>Frameworks/Technologies:</strong> Vue.js, Figma, React, HTML
+            CS, Node.js / Express.js, Firebase, MongoDB, MySQL
+          </li>
+          <li>
+            <strong>Relevant Courses:</strong> Programming(C++), Data Structures
+            and Algorithms (C++), Advanced Programming Techniques (C++),
+            Programming on the Java Virtual Machine (Java, IntelliJ IDEA),
+            Software Engineering (UML, Use Case, Firebase, Vuejs), Web
+            Applications (Vuejs, Nodejs, MongoDB), Databases (MySQL), Computer
+            Games Design &Programming (Unity, C#)
+          </li>
+        </p>
+      </div>
 
-            <img src="img/mirna-02.jpeg" alt="picture of Mirna" class="about-me__img">
+      <img
+        src="img/mirna-02.jpeg"
+        alt="picture of Mirna"
+        class="about-me__img"
+      />
 
-            <a href="img/pismo-preporuke.pdf" class="btn" download>Letter of recommendation</a>
-        </section>
+      <a href="img/pismo-preporuke.pdf" class="btn" download
+        >Letter of recommendation</a
+      >
+    </section>
 
-                <!-- My Work -->
-                <section class="my-work" id="work">
-                    <h2 class="section__title">My work</h2>
-                    <p class="section__subtitle"></p>
+    <!-- Apprenticeship -->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Apprenticeship</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Intersoft Technologies, Pula
+      </p>
 
-                    <div class="portfolio">
-                        <a href="https://github.com/mpuseljic/ready-set-gym" class="portfolio__item">
-                            <img src="img/ready-set-gym.png" alt="" class="portfolio__img"
-                        </a>
+      <div class="about-me__body">
+        <p>Web developer</p>
+        <p>
+          <li>JavaScript, HTML, CSS, React, Node.js</li>
+        </p>
+      </div>
 
-                        <a href="https://github.com/mpuseljic/fipugram-vjezba" class="portfolio__item">
-                            <img src="img/fipugram.png" alt="" class="portfolio__img"
-                        </a>
+      <img
+        src="img/mirna-02.jpeg"
+        alt="picture of Mirna"
+        class="about-me__img"
+      />
 
-                        <a href="https://github.com/mpuseljic/mpuseljic.github.io" class="portfolio__item">
-                            <img src="img/mpuseljic.png" alt="" class="portfolio__img"
-                        </a>
+      <a href="img/mirna_praksa copy.pdf" class="btn" download
+        >Intersoft Technologies</a
+      >
+    </section>
 
-                        <a href="https://github.com/mpuseljic/mobile-app" class="portfolio__item">
-                            <img src="img/mobile-app.png" alt="" class="portfolio__img"
-                        </a>
+    <!-- My Work -->
+    <section class="my-work" id="work">
+      <h2 class="section__title">My work</h2>
+      <p class="section__subtitle"></p>
 
-                        <a href="https://github.com/mpuseljic/blackjack" class="portfolio__item">
-                            <img src="img/blackjack.png" alt="" class="portfolio__img"
-                        </a>
-                    </div>
-        
-                </section>
+      <div class="portfolio">
+        <a
+          href="https://github.com/mpuseljic/ready-set-gym-frontend"
+          class="portfolio__item"
+        >
+          <img src="img/ready-set-gym.png" alt="" class="portfolio__img"
+        </a>
+        <a href="https://github.com/mpuseljic/mVisitor" class="portfolio__item">
+          <img src="img/mvisitor.png" alt="" class="portfolio__img"
+        </a>
 
-        <!-- My Work -->
-        <footer class="footer">
-            <a href="mailto:puseljicmirna@gmail.com" class="footer__link">puseljicmirna@gmail.com</a>
-            <ul class="social-list">
-                <li class="social-list__item">
-                    <a class="social-list__link" href="https://www.linkedin.com/in/mirna-pu%C5%A1elji%C4%87-908a20278/">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                </li>
-                <li class="social-list__item">
-                    <a class="social-list__link" href="https://github.com/mpuseljic">
-                        <i class="fab fa-github"></i>
-                    </a>
-                </li>
-            </ul>
-        
-        </footer>
+        <a
+          href="https://github.com/mpuseljic/fipugram-vjezba"
+          class="portfolio__item"
+        >
+          <img src="img/fipugram.png" alt="" class="portfolio__img"
+        </a>
 
+        <a
+          href="https://github.com/mpuseljic/mpuseljic.github.io"
+          class="portfolio__item"
+        >
+          <img src="img/mpuseljic.png" alt="" class="portfolio__img"
+        </a>
 
+        <a
+          href="https://github.com/mpuseljic/mobile-app"
+          class="portfolio__item"
+        >
+          <img src="img/mobile-app.png" alt="" class="portfolio__img"
+        </a>
 
-        <script src="js/index.js"></script>
-    </body>
+        <a
+          href="https://github.com/mpuseljic/blackjack"
+          class="portfolio__item"
+        >
+          <img src="img/blackjack.png" alt="" class="portfolio__img"
+        </a>
+      </div>
+    </section>
+
+    <!-- My Work -->
+    <footer class="footer">
+      <a href="mailto:puseljicmirna@gmail.com" class="footer__link"
+        >puseljicmirna@gmail.com</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.linkedin.com/in/mirna-pu%C5%A1elji%C4%87-908a20278/"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://github.com/mpuseljic">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+  </body>
 </html>
